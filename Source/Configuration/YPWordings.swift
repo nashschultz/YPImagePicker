@@ -14,10 +14,10 @@ public struct YPWordings {
     public var videoDurationPopup = VideoDurationPopup()
 
     public struct PermissionPopup {
-        public var title = ypLocalized("YPImagePickerPermissionDeniedPopupTitle")
-        public var message = ypLocalized("YPImagePickerPermissionDeniedPopupMessage")
+        public var title = "Allow access to photos"
+        public var message = "This allows you to upload photos from your camera roll or photo library. Go to settings and tap \"Photos\"."
         public var cancel = ypLocalized("YPImagePickerPermissionDeniedPopupCancel")
-        public var grantPermission = ypLocalized("YPImagePickerPermissionDeniedPopupGrantPermission")
+        public var grantPermission = "Settings"
     }
     
     public struct VideoDurationPopup {
